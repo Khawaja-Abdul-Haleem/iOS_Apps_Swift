@@ -135,4 +135,5 @@ final class ViewModel: ObservableObject {
     private func wordIsReal(word: String) -> Bool {
         UIReferenceLibraryViewController.dictionaryHasDefinition(forTerm: word)
     }
+    
 }
