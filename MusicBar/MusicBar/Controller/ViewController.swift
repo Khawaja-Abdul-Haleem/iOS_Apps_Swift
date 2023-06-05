@@ -96,8 +96,6 @@ class ViewController: BaseViewController, UITableViewDelegate, UITableViewDataSo
         cell.textLabel?.text = song.name
         cell.detailTextLabel?.text = song.albumName
       
-       // cell.accessoryView = chevronImageView
-        
         cell.imageView?.image = UIImage(named: song.imageName)
         cell.textLabel?.font = UIFont(name: "Helvetica-Bold", size: 18)
         cell.detailTextLabel?.font = UIFont(name: "Helvetica", size: 17)
