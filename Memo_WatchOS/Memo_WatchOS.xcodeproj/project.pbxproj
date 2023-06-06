@@ -1,0 +1,872 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50595F6D2A2EFF6D00CABAC6 /* Memo_WatchOS WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 50595F6C2A2EFF6D00CABAC6 /* Memo_WatchOS WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		50595F722A2EFF7300CABAC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50595F712A2EFF7300CABAC6 /* Assets.xcassets */; };
+		50595F782A2EFF7300CABAC6 /* Memo_WatchOS WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 50595F772A2EFF7300CABAC6 /* Memo_WatchOS WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		50595F7D2A2EFF7300CABAC6 /* Memo_WatchOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50595F7C2A2EFF7300CABAC6 /* Memo_WatchOSApp.swift */; };
+		50595F7F2A2EFF7300CABAC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50595F7E2A2EFF7300CABAC6 /* ContentView.swift */; };
+		50595F812A2EFF7300CABAC6 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50595F802A2EFF7300CABAC6 /* NotificationController.swift */; };
+		50595F832A2EFF7300CABAC6 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50595F822A2EFF7300CABAC6 /* NotificationView.swift */; };
+		50595F852A2EFF7300CABAC6 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50595F842A2EFF7300CABAC6 /* ComplicationController.swift */; };
+		50595F872A2EFF7500CABAC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50595F862A2EFF7500CABAC6 /* Assets.xcassets */; };
+		50595F8A2A2EFF7500CABAC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50595F892A2EFF7500CABAC6 /* Preview Assets.xcassets */; };
+		50595F962A2EFF7500CABAC6 /* Memo_WatchOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50595F952A2EFF7500CABAC6 /* Memo_WatchOSTests.swift */; };
+		50595FA02A2EFF7500CABAC6 /* Memo_WatchOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50595F9F2A2EFF7500CABAC6 /* Memo_WatchOSUITests.swift */; };
+		50595FA22A2EFF7500CABAC6 /* Memo_WatchOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50595FA12A2EFF7500CABAC6 /* Memo_WatchOSUITestsLaunchTests.swift */; };
+		50595FBB2A2F005500CABAC6 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50595FBA2A2F005500CABAC6 /* PersistenceController.swift */; };
+		50595FBE2A2F010000CABAC6 /* MemoDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50595FBC2A2F010000CABAC6 /* MemoDB.xcdatamodeld */; };
+		50595FC12A2F01F300CABAC6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50595FC02A2F01F300CABAC6 /* HomeView.swift */; };
+		50595FC32A2F058500CABAC6 /* AddItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50595FC22A2F058500CABAC6 /* AddItems.swift */; };
+		50595FC52A2F0CDE00CABAC6 /* ViewMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50595FC42A2F0CDE00CABAC6 /* ViewMemo.swift */; };
+		50595FC72A2F168100CABAC6 /* DeleteMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50595FC62A2F168100CABAC6 /* DeleteMemo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50595F6E2A2EFF6D00CABAC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50595F622A2EFF6C00CABAC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50595F6B2A2EFF6D00CABAC6;
+			remoteInfo = "Memo_WatchOS WatchKit App";
+		};
+		50595F792A2EFF7300CABAC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50595F622A2EFF6C00CABAC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50595F762A2EFF7300CABAC6;
+			remoteInfo = "Memo_WatchOS WatchKit Extension";
+		};
+		50595F922A2EFF7500CABAC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50595F622A2EFF6C00CABAC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50595F762A2EFF7300CABAC6;
+			remoteInfo = "Memo_WatchOS WatchKit Extension";
+		};
+		50595F9C2A2EFF7500CABAC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50595F622A2EFF6C00CABAC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50595F6B2A2EFF6D00CABAC6;
+			remoteInfo = "Memo_WatchOS WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		50595FA82A2EFF7500CABAC6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				50595F782A2EFF7300CABAC6 /* Memo_WatchOS WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50595FAC2A2EFF7500CABAC6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				50595F6D2A2EFF6D00CABAC6 /* Memo_WatchOS WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		50595F682A2EFF6D00CABAC6 /* Memo_WatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memo_WatchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50595F6C2A2EFF6D00CABAC6 /* Memo_WatchOS WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memo_WatchOS WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50595F712A2EFF7300CABAC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50595F772A2EFF7300CABAC6 /* Memo_WatchOS WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Memo_WatchOS WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50595F7C2A2EFF7300CABAC6 /* Memo_WatchOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo_WatchOSApp.swift; sourceTree = "<group>"; };
+		50595F7E2A2EFF7300CABAC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		50595F802A2EFF7300CABAC6 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		50595F822A2EFF7300CABAC6 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		50595F842A2EFF7300CABAC6 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		50595F862A2EFF7500CABAC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50595F892A2EFF7500CABAC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		50595F8B2A2EFF7500CABAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50595F8C2A2EFF7500CABAC6 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		50595F912A2EFF7500CABAC6 /* Memo_WatchOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Memo_WatchOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50595F952A2EFF7500CABAC6 /* Memo_WatchOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo_WatchOSTests.swift; sourceTree = "<group>"; };
+		50595F9B2A2EFF7500CABAC6 /* Memo_WatchOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Memo_WatchOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50595F9F2A2EFF7500CABAC6 /* Memo_WatchOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo_WatchOSUITests.swift; sourceTree = "<group>"; };
+		50595FA12A2EFF7500CABAC6 /* Memo_WatchOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo_WatchOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		50595FBA2A2F005500CABAC6 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		50595FBD2A2F010000CABAC6 /* MemoDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MemoDB.xcdatamodel; sourceTree = "<group>"; };
+		50595FC02A2F01F300CABAC6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		50595FC22A2F058500CABAC6 /* AddItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItems.swift; sourceTree = "<group>"; };
+		50595FC42A2F0CDE00CABAC6 /* ViewMemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMemo.swift; sourceTree = "<group>"; };
+		50595FC62A2F168100CABAC6 /* DeleteMemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteMemo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50595F742A2EFF7300CABAC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50595F8E2A2EFF7500CABAC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50595F982A2EFF7500CABAC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50595F612A2EFF6C00CABAC6 = {
+			isa = PBXGroup;
+			children = (
+				50595F702A2EFF6D00CABAC6 /* Memo_WatchOS WatchKit App */,
+				50595F7B2A2EFF7300CABAC6 /* Memo_WatchOS WatchKit Extension */,
+				50595F942A2EFF7500CABAC6 /* Memo_WatchOSTests */,
+				50595F9E2A2EFF7500CABAC6 /* Memo_WatchOSUITests */,
+				50595F692A2EFF6D00CABAC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50595F692A2EFF6D00CABAC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50595F682A2EFF6D00CABAC6 /* Memo_WatchOS.app */,
+				50595F6C2A2EFF6D00CABAC6 /* Memo_WatchOS WatchKit App.app */,
+				50595F772A2EFF7300CABAC6 /* Memo_WatchOS WatchKit Extension.appex */,
+				50595F912A2EFF7500CABAC6 /* Memo_WatchOSTests.xctest */,
+				50595F9B2A2EFF7500CABAC6 /* Memo_WatchOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50595F702A2EFF6D00CABAC6 /* Memo_WatchOS WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				50595F712A2EFF7300CABAC6 /* Assets.xcassets */,
+			);
+			path = "Memo_WatchOS WatchKit App";
+			sourceTree = "<group>";
+		};
+		50595F7B2A2EFF7300CABAC6 /* Memo_WatchOS WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				50595FB62A2F001600CABAC6 /* CoreData */,
+				50595F7C2A2EFF7300CABAC6 /* Memo_WatchOSApp.swift */,
+				50595FBF2A2F01D800CABAC6 /* Views */,
+				50595F802A2EFF7300CABAC6 /* NotificationController.swift */,
+				50595F822A2EFF7300CABAC6 /* NotificationView.swift */,
+				50595F842A2EFF7300CABAC6 /* ComplicationController.swift */,
+				50595F862A2EFF7500CABAC6 /* Assets.xcassets */,
+				50595F8B2A2EFF7500CABAC6 /* Info.plist */,
+				50595F8C2A2EFF7500CABAC6 /* PushNotificationPayload.apns */,
+				50595F882A2EFF7500CABAC6 /* Preview Content */,
+			);
+			path = "Memo_WatchOS WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		50595F882A2EFF7500CABAC6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				50595F892A2EFF7500CABAC6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		50595F942A2EFF7500CABAC6 /* Memo_WatchOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				50595F952A2EFF7500CABAC6 /* Memo_WatchOSTests.swift */,
+			);
+			path = Memo_WatchOSTests;
+			sourceTree = "<group>";
+		};
+		50595F9E2A2EFF7500CABAC6 /* Memo_WatchOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50595F9F2A2EFF7500CABAC6 /* Memo_WatchOSUITests.swift */,
+				50595FA12A2EFF7500CABAC6 /* Memo_WatchOSUITestsLaunchTests.swift */,
+			);
+			path = Memo_WatchOSUITests;
+			sourceTree = "<group>";
+		};
+		50595FB62A2F001600CABAC6 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				50595FBA2A2F005500CABAC6 /* PersistenceController.swift */,
+				50595FBC2A2F010000CABAC6 /* MemoDB.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		50595FBF2A2F01D800CABAC6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				50595F7E2A2EFF7300CABAC6 /* ContentView.swift */,
+				50595FC02A2F01F300CABAC6 /* HomeView.swift */,
+				50595FC22A2F058500CABAC6 /* AddItems.swift */,
+				50595FC42A2F0CDE00CABAC6 /* ViewMemo.swift */,
+				50595FC62A2F168100CABAC6 /* DeleteMemo.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50595F672A2EFF6D00CABAC6 /* Memo_WatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50595FAD2A2EFF7500CABAC6 /* Build configuration list for PBXNativeTarget "Memo_WatchOS" */;
+			buildPhases = (
+				50595F662A2EFF6D00CABAC6 /* Resources */,
+				50595FAC2A2EFF7500CABAC6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50595F6F2A2EFF6D00CABAC6 /* PBXTargetDependency */,
+			);
+			name = Memo_WatchOS;
+			productName = Memo_WatchOS;
+			productReference = 50595F682A2EFF6D00CABAC6 /* Memo_WatchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		50595F6B2A2EFF6D00CABAC6 /* Memo_WatchOS WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50595FA92A2EFF7500CABAC6 /* Build configuration list for PBXNativeTarget "Memo_WatchOS WatchKit App" */;
+			buildPhases = (
+				50595F6A2A2EFF6D00CABAC6 /* Resources */,
+				50595FA82A2EFF7500CABAC6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50595F7A2A2EFF7300CABAC6 /* PBXTargetDependency */,
+			);
+			name = "Memo_WatchOS WatchKit App";
+			productName = "Memo_WatchOS WatchKit App";
+			productReference = 50595F6C2A2EFF6D00CABAC6 /* Memo_WatchOS WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		50595F762A2EFF7300CABAC6 /* Memo_WatchOS WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50595FA52A2EFF7500CABAC6 /* Build configuration list for PBXNativeTarget "Memo_WatchOS WatchKit Extension" */;
+			buildPhases = (
+				50595F732A2EFF7300CABAC6 /* Sources */,
+				50595F742A2EFF7300CABAC6 /* Frameworks */,
+				50595F752A2EFF7300CABAC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Memo_WatchOS WatchKit Extension";
+			productName = "Memo_WatchOS WatchKit Extension";
+			productReference = 50595F772A2EFF7300CABAC6 /* Memo_WatchOS WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		50595F902A2EFF7500CABAC6 /* Memo_WatchOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50595FB02A2EFF7500CABAC6 /* Build configuration list for PBXNativeTarget "Memo_WatchOSTests" */;
+			buildPhases = (
+				50595F8D2A2EFF7500CABAC6 /* Sources */,
+				50595F8E2A2EFF7500CABAC6 /* Frameworks */,
+				50595F8F2A2EFF7500CABAC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50595F932A2EFF7500CABAC6 /* PBXTargetDependency */,
+			);
+			name = Memo_WatchOSTests;
+			productName = Memo_WatchOSTests;
+			productReference = 50595F912A2EFF7500CABAC6 /* Memo_WatchOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50595F9A2A2EFF7500CABAC6 /* Memo_WatchOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50595FB32A2EFF7500CABAC6 /* Build configuration list for PBXNativeTarget "Memo_WatchOSUITests" */;
+			buildPhases = (
+				50595F972A2EFF7500CABAC6 /* Sources */,
+				50595F982A2EFF7500CABAC6 /* Frameworks */,
+				50595F992A2EFF7500CABAC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50595F9D2A2EFF7500CABAC6 /* PBXTargetDependency */,
+			);
+			name = Memo_WatchOSUITests;
+			productName = Memo_WatchOSUITests;
+			productReference = 50595F9B2A2EFF7500CABAC6 /* Memo_WatchOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50595F622A2EFF6C00CABAC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					50595F672A2EFF6D00CABAC6 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					50595F6B2A2EFF6D00CABAC6 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					50595F762A2EFF7300CABAC6 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					50595F902A2EFF7500CABAC6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 50595F762A2EFF7300CABAC6;
+					};
+					50595F9A2A2EFF7500CABAC6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 50595F6B2A2EFF6D00CABAC6;
+					};
+				};
+			};
+			buildConfigurationList = 50595F652A2EFF6C00CABAC6 /* Build configuration list for PBXProject "Memo_WatchOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50595F612A2EFF6C00CABAC6;
+			productRefGroup = 50595F692A2EFF6D00CABAC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50595F672A2EFF6D00CABAC6 /* Memo_WatchOS */,
+				50595F6B2A2EFF6D00CABAC6 /* Memo_WatchOS WatchKit App */,
+				50595F762A2EFF7300CABAC6 /* Memo_WatchOS WatchKit Extension */,
+				50595F902A2EFF7500CABAC6 /* Memo_WatchOSTests */,
+				50595F9A2A2EFF7500CABAC6 /* Memo_WatchOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50595F662A2EFF6D00CABAC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50595F6A2A2EFF6D00CABAC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50595F722A2EFF7300CABAC6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50595F752A2EFF7300CABAC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50595F8A2A2EFF7500CABAC6 /* Preview Assets.xcassets in Resources */,
+				50595F872A2EFF7500CABAC6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50595F8F2A2EFF7500CABAC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50595F992A2EFF7500CABAC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50595F732A2EFF7300CABAC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50595F812A2EFF7300CABAC6 /* NotificationController.swift in Sources */,
+				50595FBB2A2F005500CABAC6 /* PersistenceController.swift in Sources */,
+				50595F7F2A2EFF7300CABAC6 /* ContentView.swift in Sources */,
+				50595FC72A2F168100CABAC6 /* DeleteMemo.swift in Sources */,
+				50595FBE2A2F010000CABAC6 /* MemoDB.xcdatamodeld in Sources */,
+				50595FC32A2F058500CABAC6 /* AddItems.swift in Sources */,
+				50595F852A2EFF7300CABAC6 /* ComplicationController.swift in Sources */,
+				50595FC52A2F0CDE00CABAC6 /* ViewMemo.swift in Sources */,
+				50595FC12A2F01F300CABAC6 /* HomeView.swift in Sources */,
+				50595F7D2A2EFF7300CABAC6 /* Memo_WatchOSApp.swift in Sources */,
+				50595F832A2EFF7300CABAC6 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50595F8D2A2EFF7500CABAC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50595F962A2EFF7500CABAC6 /* Memo_WatchOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50595F972A2EFF7500CABAC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50595FA22A2EFF7500CABAC6 /* Memo_WatchOSUITestsLaunchTests.swift in Sources */,
+				50595FA02A2EFF7500CABAC6 /* Memo_WatchOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50595F6F2A2EFF6D00CABAC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50595F6B2A2EFF6D00CABAC6 /* Memo_WatchOS WatchKit App */;
+			targetProxy = 50595F6E2A2EFF6D00CABAC6 /* PBXContainerItemProxy */;
+		};
+		50595F7A2A2EFF7300CABAC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50595F762A2EFF7300CABAC6 /* Memo_WatchOS WatchKit Extension */;
+			targetProxy = 50595F792A2EFF7300CABAC6 /* PBXContainerItemProxy */;
+		};
+		50595F932A2EFF7500CABAC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50595F762A2EFF7300CABAC6 /* Memo_WatchOS WatchKit Extension */;
+			targetProxy = 50595F922A2EFF7500CABAC6 /* PBXContainerItemProxy */;
+		};
+		50595F9D2A2EFF7500CABAC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50595F6B2A2EFF6D00CABAC6 /* Memo_WatchOS WatchKit App */;
+			targetProxy = 50595F9C2A2EFF7500CABAC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		50595FA32A2EFF7500CABAC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50595FA42A2EFF7500CABAC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50595FA62A2EFF7500CABAC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Memo_WatchOS WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Memo_WatchOS WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Memo_WatchOS WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kah-Services.Memo-WatchOS.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		50595FA72A2EFF7500CABAC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Memo_WatchOS WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Memo_WatchOS WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Memo_WatchOS WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kah-Services.Memo-WatchOS.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		50595FAA2A2EFF7500CABAC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Memo_WatchOS_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Memo_WatchOS WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kah-Services.Memo-WatchOS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		50595FAB2A2EFF7500CABAC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Memo_WatchOS_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Memo_WatchOS WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kah-Services.Memo-WatchOS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		50595FAE2A2EFF7500CABAC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kah-Services.Memo-WatchOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		50595FAF2A2EFF7500CABAC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kah-Services.Memo-WatchOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		50595FB12A2EFF7500CABAC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kah-Services.Memo-WatchOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memo_WatchOS WatchKit Extension.appex/Memo_WatchOS WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		50595FB22A2EFF7500CABAC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kah-Services.Memo-WatchOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memo_WatchOS WatchKit Extension.appex/Memo_WatchOS WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		50595FB42A2EFF7500CABAC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kah-Services.Memo-WatchOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Memo_WatchOS WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		50595FB52A2EFF7500CABAC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kah-Services.Memo-WatchOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Memo_WatchOS WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50595F652A2EFF6C00CABAC6 /* Build configuration list for PBXProject "Memo_WatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50595FA32A2EFF7500CABAC6 /* Debug */,
+				50595FA42A2EFF7500CABAC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50595FA52A2EFF7500CABAC6 /* Build configuration list for PBXNativeTarget "Memo_WatchOS WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50595FA62A2EFF7500CABAC6 /* Debug */,
+				50595FA72A2EFF7500CABAC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50595FA92A2EFF7500CABAC6 /* Build configuration list for PBXNativeTarget "Memo_WatchOS WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50595FAA2A2EFF7500CABAC6 /* Debug */,
+				50595FAB2A2EFF7500CABAC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50595FAD2A2EFF7500CABAC6 /* Build configuration list for PBXNativeTarget "Memo_WatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50595FAE2A2EFF7500CABAC6 /* Debug */,
+				50595FAF2A2EFF7500CABAC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50595FB02A2EFF7500CABAC6 /* Build configuration list for PBXNativeTarget "Memo_WatchOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50595FB12A2EFF7500CABAC6 /* Debug */,
+				50595FB22A2EFF7500CABAC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50595FB32A2EFF7500CABAC6 /* Build configuration list for PBXNativeTarget "Memo_WatchOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50595FB42A2EFF7500CABAC6 /* Debug */,
+				50595FB52A2EFF7500CABAC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		50595FBC2A2F010000CABAC6 /* MemoDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50595FBD2A2F010000CABAC6 /* MemoDB.xcdatamodel */,
+			);
+			currentVersion = 50595FBD2A2F010000CABAC6 /* MemoDB.xcdatamodel */;
+			path = MemoDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 50595F622A2EFF6C00CABAC6 /* Project object */;
+}
