@@ -1,0 +1,867 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50ECC1A02A2F4AB3002622EF /* MusicApp_WatchOS_SwiftUI WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 50ECC19F2A2F4AB3002622EF /* MusicApp_WatchOS_SwiftUI WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		50ECC1A52A2F4AB9002622EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50ECC1A42A2F4AB9002622EF /* Assets.xcassets */; };
+		50ECC1AB2A2F4AB9002622EF /* MusicApp_WatchOS_SwiftUI WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 50ECC1AA2A2F4AB9002622EF /* MusicApp_WatchOS_SwiftUI WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		50ECC1B02A2F4AB9002622EF /* MusicApp_WatchOS_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ECC1AF2A2F4AB9002622EF /* MusicApp_WatchOS_SwiftUIApp.swift */; };
+		50ECC1B22A2F4AB9002622EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ECC1B12A2F4AB9002622EF /* ContentView.swift */; };
+		50ECC1B42A2F4AB9002622EF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ECC1B32A2F4AB9002622EF /* NotificationController.swift */; };
+		50ECC1B62A2F4AB9002622EF /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ECC1B52A2F4AB9002622EF /* NotificationView.swift */; };
+		50ECC1B82A2F4AB9002622EF /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ECC1B72A2F4AB9002622EF /* ComplicationController.swift */; };
+		50ECC1BA2A2F4ABA002622EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50ECC1B92A2F4ABA002622EF /* Assets.xcassets */; };
+		50ECC1BD2A2F4ABA002622EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50ECC1BC2A2F4ABA002622EF /* Preview Assets.xcassets */; };
+		50ECC1C92A2F4ABA002622EF /* MusicApp_WatchOS_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ECC1C82A2F4ABA002622EF /* MusicApp_WatchOS_SwiftUITests.swift */; };
+		50ECC1D32A2F4ABB002622EF /* MusicApp_WatchOS_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ECC1D22A2F4ABB002622EF /* MusicApp_WatchOS_SwiftUIUITests.swift */; };
+		50ECC1D52A2F4ABB002622EF /* MusicApp_WatchOS_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ECC1D42A2F4ABB002622EF /* MusicApp_WatchOS_SwiftUIUITestsLaunchTests.swift */; };
+		50ECC1ED2A2F4C76002622EF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ECC1EC2A2F4C76002622EF /* HomeView.swift */; };
+		50ECC1F02A2F4CE7002622EF /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ECC1EF2A2F4CE7002622EF /* Artist.swift */; };
+		50ECC1F22A2F4CFB002622EF /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ECC1F12A2F4CFB002622EF /* Music.swift */; };
+		50ECC1F42A2F4D34002622EF /* ArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ECC1F32A2F4D34002622EF /* ArtistView.swift */; };
+		50ECC1F62A2F4DC3002622EF /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ECC1F52A2F4DC3002622EF /* SongView.swift */; };
+		50ECC1F82A2F4DF6002622EF /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ECC1F72A2F4DF6002622EF /* Song.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50ECC1A12A2F4AB3002622EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50ECC1952A2F4AB3002622EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50ECC19E2A2F4AB3002622EF;
+			remoteInfo = "MusicApp_WatchOS_SwiftUI WatchKit App";
+		};
+		50ECC1AC2A2F4AB9002622EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50ECC1952A2F4AB3002622EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50ECC1A92A2F4AB9002622EF;
+			remoteInfo = "MusicApp_WatchOS_SwiftUI WatchKit Extension";
+		};
+		50ECC1C52A2F4ABA002622EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50ECC1952A2F4AB3002622EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50ECC1A92A2F4AB9002622EF;
+			remoteInfo = "MusicApp_WatchOS_SwiftUI WatchKit Extension";
+		};
+		50ECC1CF2A2F4ABB002622EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50ECC1952A2F4AB3002622EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50ECC19E2A2F4AB3002622EF;
+			remoteInfo = "MusicApp_WatchOS_SwiftUI WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		50ECC1DB2A2F4ABB002622EF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				50ECC1AB2A2F4AB9002622EF /* MusicApp_WatchOS_SwiftUI WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50ECC1DF2A2F4ABB002622EF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				50ECC1A02A2F4AB3002622EF /* MusicApp_WatchOS_SwiftUI WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		50ECC19B2A2F4AB3002622EF /* MusicApp_WatchOS_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicApp_WatchOS_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50ECC19F2A2F4AB3002622EF /* MusicApp_WatchOS_SwiftUI WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MusicApp_WatchOS_SwiftUI WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50ECC1A42A2F4AB9002622EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50ECC1AA2A2F4AB9002622EF /* MusicApp_WatchOS_SwiftUI WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MusicApp_WatchOS_SwiftUI WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50ECC1AF2A2F4AB9002622EF /* MusicApp_WatchOS_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicApp_WatchOS_SwiftUIApp.swift; sourceTree = "<group>"; };
+		50ECC1B12A2F4AB9002622EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		50ECC1B32A2F4AB9002622EF /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		50ECC1B52A2F4AB9002622EF /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		50ECC1B72A2F4AB9002622EF /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		50ECC1B92A2F4ABA002622EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50ECC1BC2A2F4ABA002622EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		50ECC1BE2A2F4ABA002622EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50ECC1BF2A2F4ABA002622EF /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		50ECC1C42A2F4ABA002622EF /* MusicApp_WatchOS_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicApp_WatchOS_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50ECC1C82A2F4ABA002622EF /* MusicApp_WatchOS_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicApp_WatchOS_SwiftUITests.swift; sourceTree = "<group>"; };
+		50ECC1CE2A2F4ABB002622EF /* MusicApp_WatchOS_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicApp_WatchOS_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50ECC1D22A2F4ABB002622EF /* MusicApp_WatchOS_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicApp_WatchOS_SwiftUIUITests.swift; sourceTree = "<group>"; };
+		50ECC1D42A2F4ABB002622EF /* MusicApp_WatchOS_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicApp_WatchOS_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		50ECC1EC2A2F4C76002622EF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		50ECC1EF2A2F4CE7002622EF /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		50ECC1F12A2F4CFB002622EF /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		50ECC1F32A2F4D34002622EF /* ArtistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistView.swift; sourceTree = "<group>"; };
+		50ECC1F52A2F4DC3002622EF /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
+		50ECC1F72A2F4DF6002622EF /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50ECC1A72A2F4AB9002622EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50ECC1C12A2F4ABA002622EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50ECC1CB2A2F4ABB002622EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50ECC1942A2F4AB3002622EF = {
+			isa = PBXGroup;
+			children = (
+				50ECC1A32A2F4AB3002622EF /* MusicApp_WatchOS_SwiftUI WatchKit App */,
+				50ECC1AE2A2F4AB9002622EF /* MusicApp_WatchOS_SwiftUI WatchKit Extension */,
+				50ECC1C72A2F4ABA002622EF /* MusicApp_WatchOS_SwiftUITests */,
+				50ECC1D12A2F4ABB002622EF /* MusicApp_WatchOS_SwiftUIUITests */,
+				50ECC19C2A2F4AB3002622EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50ECC19C2A2F4AB3002622EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50ECC19B2A2F4AB3002622EF /* MusicApp_WatchOS_SwiftUI.app */,
+				50ECC19F2A2F4AB3002622EF /* MusicApp_WatchOS_SwiftUI WatchKit App.app */,
+				50ECC1AA2A2F4AB9002622EF /* MusicApp_WatchOS_SwiftUI WatchKit Extension.appex */,
+				50ECC1C42A2F4ABA002622EF /* MusicApp_WatchOS_SwiftUITests.xctest */,
+				50ECC1CE2A2F4ABB002622EF /* MusicApp_WatchOS_SwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50ECC1A32A2F4AB3002622EF /* MusicApp_WatchOS_SwiftUI WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				50ECC1A42A2F4AB9002622EF /* Assets.xcassets */,
+			);
+			path = "MusicApp_WatchOS_SwiftUI WatchKit App";
+			sourceTree = "<group>";
+		};
+		50ECC1AE2A2F4AB9002622EF /* MusicApp_WatchOS_SwiftUI WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				50ECC1EE2A2F4CCF002622EF /* Model */,
+				50ECC1EB2A2F4B60002622EF /* View */,
+				50ECC1FB2A2F52EA002622EF /* NotificationView */,
+				50ECC1AF2A2F4AB9002622EF /* MusicApp_WatchOS_SwiftUIApp.swift */,
+				50ECC1B72A2F4AB9002622EF /* ComplicationController.swift */,
+				50ECC1B92A2F4ABA002622EF /* Assets.xcassets */,
+				50ECC1BE2A2F4ABA002622EF /* Info.plist */,
+				50ECC1BF2A2F4ABA002622EF /* PushNotificationPayload.apns */,
+				50ECC1BB2A2F4ABA002622EF /* Preview Content */,
+			);
+			path = "MusicApp_WatchOS_SwiftUI WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		50ECC1BB2A2F4ABA002622EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				50ECC1BC2A2F4ABA002622EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		50ECC1C72A2F4ABA002622EF /* MusicApp_WatchOS_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50ECC1C82A2F4ABA002622EF /* MusicApp_WatchOS_SwiftUITests.swift */,
+			);
+			path = MusicApp_WatchOS_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		50ECC1D12A2F4ABB002622EF /* MusicApp_WatchOS_SwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50ECC1D22A2F4ABB002622EF /* MusicApp_WatchOS_SwiftUIUITests.swift */,
+				50ECC1D42A2F4ABB002622EF /* MusicApp_WatchOS_SwiftUIUITestsLaunchTests.swift */,
+			);
+			path = MusicApp_WatchOS_SwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		50ECC1EB2A2F4B60002622EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				50ECC1B12A2F4AB9002622EF /* ContentView.swift */,
+				50ECC1EC2A2F4C76002622EF /* HomeView.swift */,
+				50ECC1F32A2F4D34002622EF /* ArtistView.swift */,
+				50ECC1F52A2F4DC3002622EF /* SongView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		50ECC1EE2A2F4CCF002622EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50ECC1EF2A2F4CE7002622EF /* Artist.swift */,
+				50ECC1F12A2F4CFB002622EF /* Music.swift */,
+				50ECC1F72A2F4DF6002622EF /* Song.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		50ECC1FB2A2F52EA002622EF /* NotificationView */ = {
+			isa = PBXGroup;
+			children = (
+				50ECC1B32A2F4AB9002622EF /* NotificationController.swift */,
+				50ECC1B52A2F4AB9002622EF /* NotificationView.swift */,
+			);
+			path = NotificationView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50ECC19A2A2F4AB3002622EF /* MusicApp_WatchOS_SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50ECC1E02A2F4ABB002622EF /* Build configuration list for PBXNativeTarget "MusicApp_WatchOS_SwiftUI" */;
+			buildPhases = (
+				50ECC1992A2F4AB3002622EF /* Resources */,
+				50ECC1DF2A2F4ABB002622EF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50ECC1A22A2F4AB3002622EF /* PBXTargetDependency */,
+			);
+			name = MusicApp_WatchOS_SwiftUI;
+			productName = MusicApp_WatchOS_SwiftUI;
+			productReference = 50ECC19B2A2F4AB3002622EF /* MusicApp_WatchOS_SwiftUI.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		50ECC19E2A2F4AB3002622EF /* MusicApp_WatchOS_SwiftUI WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50ECC1DC2A2F4ABB002622EF /* Build configuration list for PBXNativeTarget "MusicApp_WatchOS_SwiftUI WatchKit App" */;
+			buildPhases = (
+				50ECC19D2A2F4AB3002622EF /* Resources */,
+				50ECC1DB2A2F4ABB002622EF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50ECC1AD2A2F4AB9002622EF /* PBXTargetDependency */,
+			);
+			name = "MusicApp_WatchOS_SwiftUI WatchKit App";
+			productName = "MusicApp_WatchOS_SwiftUI WatchKit App";
+			productReference = 50ECC19F2A2F4AB3002622EF /* MusicApp_WatchOS_SwiftUI WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		50ECC1A92A2F4AB9002622EF /* MusicApp_WatchOS_SwiftUI WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50ECC1D82A2F4ABB002622EF /* Build configuration list for PBXNativeTarget "MusicApp_WatchOS_SwiftUI WatchKit Extension" */;
+			buildPhases = (
+				50ECC1A62A2F4AB9002622EF /* Sources */,
+				50ECC1A72A2F4AB9002622EF /* Frameworks */,
+				50ECC1A82A2F4AB9002622EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MusicApp_WatchOS_SwiftUI WatchKit Extension";
+			productName = "MusicApp_WatchOS_SwiftUI WatchKit Extension";
+			productReference = 50ECC1AA2A2F4AB9002622EF /* MusicApp_WatchOS_SwiftUI WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		50ECC1C32A2F4ABA002622EF /* MusicApp_WatchOS_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50ECC1E32A2F4ABB002622EF /* Build configuration list for PBXNativeTarget "MusicApp_WatchOS_SwiftUITests" */;
+			buildPhases = (
+				50ECC1C02A2F4ABA002622EF /* Sources */,
+				50ECC1C12A2F4ABA002622EF /* Frameworks */,
+				50ECC1C22A2F4ABA002622EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50ECC1C62A2F4ABA002622EF /* PBXTargetDependency */,
+			);
+			name = MusicApp_WatchOS_SwiftUITests;
+			productName = MusicApp_WatchOS_SwiftUITests;
+			productReference = 50ECC1C42A2F4ABA002622EF /* MusicApp_WatchOS_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50ECC1CD2A2F4ABB002622EF /* MusicApp_WatchOS_SwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50ECC1E62A2F4ABB002622EF /* Build configuration list for PBXNativeTarget "MusicApp_WatchOS_SwiftUIUITests" */;
+			buildPhases = (
+				50ECC1CA2A2F4ABB002622EF /* Sources */,
+				50ECC1CB2A2F4ABB002622EF /* Frameworks */,
+				50ECC1CC2A2F4ABB002622EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50ECC1D02A2F4ABB002622EF /* PBXTargetDependency */,
+			);
+			name = MusicApp_WatchOS_SwiftUIUITests;
+			productName = MusicApp_WatchOS_SwiftUIUITests;
+			productReference = 50ECC1CE2A2F4ABB002622EF /* MusicApp_WatchOS_SwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50ECC1952A2F4AB3002622EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					50ECC19A2A2F4AB3002622EF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					50ECC19E2A2F4AB3002622EF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					50ECC1A92A2F4AB9002622EF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					50ECC1C32A2F4ABA002622EF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 50ECC1A92A2F4AB9002622EF;
+					};
+					50ECC1CD2A2F4ABB002622EF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 50ECC19E2A2F4AB3002622EF;
+					};
+				};
+			};
+			buildConfigurationList = 50ECC1982A2F4AB3002622EF /* Build configuration list for PBXProject "MusicApp_WatchOS_SwiftUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50ECC1942A2F4AB3002622EF;
+			productRefGroup = 50ECC19C2A2F4AB3002622EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50ECC19A2A2F4AB3002622EF /* MusicApp_WatchOS_SwiftUI */,
+				50ECC19E2A2F4AB3002622EF /* MusicApp_WatchOS_SwiftUI WatchKit App */,
+				50ECC1A92A2F4AB9002622EF /* MusicApp_WatchOS_SwiftUI WatchKit Extension */,
+				50ECC1C32A2F4ABA002622EF /* MusicApp_WatchOS_SwiftUITests */,
+				50ECC1CD2A2F4ABB002622EF /* MusicApp_WatchOS_SwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50ECC1992A2F4AB3002622EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50ECC19D2A2F4AB3002622EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50ECC1A52A2F4AB9002622EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50ECC1A82A2F4AB9002622EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50ECC1BD2A2F4ABA002622EF /* Preview Assets.xcassets in Resources */,
+				50ECC1BA2A2F4ABA002622EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50ECC1C22A2F4ABA002622EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50ECC1CC2A2F4ABB002622EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50ECC1A62A2F4AB9002622EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50ECC1B42A2F4AB9002622EF /* NotificationController.swift in Sources */,
+				50ECC1B22A2F4AB9002622EF /* ContentView.swift in Sources */,
+				50ECC1B82A2F4AB9002622EF /* ComplicationController.swift in Sources */,
+				50ECC1ED2A2F4C76002622EF /* HomeView.swift in Sources */,
+				50ECC1B02A2F4AB9002622EF /* MusicApp_WatchOS_SwiftUIApp.swift in Sources */,
+				50ECC1F82A2F4DF6002622EF /* Song.swift in Sources */,
+				50ECC1B62A2F4AB9002622EF /* NotificationView.swift in Sources */,
+				50ECC1F02A2F4CE7002622EF /* Artist.swift in Sources */,
+				50ECC1F62A2F4DC3002622EF /* SongView.swift in Sources */,
+				50ECC1F22A2F4CFB002622EF /* Music.swift in Sources */,
+				50ECC1F42A2F4D34002622EF /* ArtistView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50ECC1C02A2F4ABA002622EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50ECC1C92A2F4ABA002622EF /* MusicApp_WatchOS_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50ECC1CA2A2F4ABB002622EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50ECC1D52A2F4ABB002622EF /* MusicApp_WatchOS_SwiftUIUITestsLaunchTests.swift in Sources */,
+				50ECC1D32A2F4ABB002622EF /* MusicApp_WatchOS_SwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50ECC1A22A2F4AB3002622EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50ECC19E2A2F4AB3002622EF /* MusicApp_WatchOS_SwiftUI WatchKit App */;
+			targetProxy = 50ECC1A12A2F4AB3002622EF /* PBXContainerItemProxy */;
+		};
+		50ECC1AD2A2F4AB9002622EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50ECC1A92A2F4AB9002622EF /* MusicApp_WatchOS_SwiftUI WatchKit Extension */;
+			targetProxy = 50ECC1AC2A2F4AB9002622EF /* PBXContainerItemProxy */;
+		};
+		50ECC1C62A2F4ABA002622EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50ECC1A92A2F4AB9002622EF /* MusicApp_WatchOS_SwiftUI WatchKit Extension */;
+			targetProxy = 50ECC1C52A2F4ABA002622EF /* PBXContainerItemProxy */;
+		};
+		50ECC1D02A2F4ABB002622EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50ECC19E2A2F4AB3002622EF /* MusicApp_WatchOS_SwiftUI WatchKit App */;
+			targetProxy = 50ECC1CF2A2F4ABB002622EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		50ECC1D62A2F4ABB002622EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50ECC1D72A2F4ABB002622EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50ECC1D92A2F4ABB002622EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MusicApp_WatchOS_SwiftUI WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MusicApp_WatchOS_SwiftUI WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MusicApp_WatchOS_SwiftUI WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kah-Services.MusicApp-WatchOS-SwiftUI.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		50ECC1DA2A2F4ABB002622EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MusicApp_WatchOS_SwiftUI WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MusicApp_WatchOS_SwiftUI WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MusicApp_WatchOS_SwiftUI WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kah-Services.MusicApp-WatchOS-SwiftUI.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		50ECC1DD2A2F4ABB002622EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = MusicApp_WatchOS_SwiftUI_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "MusicApp_WatchOS_SwiftUI WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kah-Services.MusicApp-WatchOS-SwiftUI.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		50ECC1DE2A2F4ABB002622EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = MusicApp_WatchOS_SwiftUI_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "MusicApp_WatchOS_SwiftUI WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kah-Services.MusicApp-WatchOS-SwiftUI.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		50ECC1E12A2F4ABB002622EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kah-Services.MusicApp-WatchOS-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		50ECC1E22A2F4ABB002622EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kah-Services.MusicApp-WatchOS-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		50ECC1E42A2F4ABB002622EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kah-Services.MusicApp-WatchOS-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicApp_WatchOS_SwiftUI WatchKit Extension.appex/MusicApp_WatchOS_SwiftUI WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		50ECC1E52A2F4ABB002622EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kah-Services.MusicApp-WatchOS-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicApp_WatchOS_SwiftUI WatchKit Extension.appex/MusicApp_WatchOS_SwiftUI WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		50ECC1E72A2F4ABB002622EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kah-Services.MusicApp-WatchOS-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "MusicApp_WatchOS_SwiftUI WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		50ECC1E82A2F4ABB002622EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kah-Services.MusicApp-WatchOS-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "MusicApp_WatchOS_SwiftUI WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50ECC1982A2F4AB3002622EF /* Build configuration list for PBXProject "MusicApp_WatchOS_SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50ECC1D62A2F4ABB002622EF /* Debug */,
+				50ECC1D72A2F4ABB002622EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50ECC1D82A2F4ABB002622EF /* Build configuration list for PBXNativeTarget "MusicApp_WatchOS_SwiftUI WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50ECC1D92A2F4ABB002622EF /* Debug */,
+				50ECC1DA2A2F4ABB002622EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50ECC1DC2A2F4ABB002622EF /* Build configuration list for PBXNativeTarget "MusicApp_WatchOS_SwiftUI WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50ECC1DD2A2F4ABB002622EF /* Debug */,
+				50ECC1DE2A2F4ABB002622EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50ECC1E02A2F4ABB002622EF /* Build configuration list for PBXNativeTarget "MusicApp_WatchOS_SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50ECC1E12A2F4ABB002622EF /* Debug */,
+				50ECC1E22A2F4ABB002622EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50ECC1E32A2F4ABB002622EF /* Build configuration list for PBXNativeTarget "MusicApp_WatchOS_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50ECC1E42A2F4ABB002622EF /* Debug */,
+				50ECC1E52A2F4ABB002622EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50ECC1E62A2F4ABB002622EF /* Build configuration list for PBXNativeTarget "MusicApp_WatchOS_SwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50ECC1E72A2F4ABB002622EF /* Debug */,
+				50ECC1E82A2F4ABB002622EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50ECC1952A2F4AB3002622EF /* Project object */;
+}
