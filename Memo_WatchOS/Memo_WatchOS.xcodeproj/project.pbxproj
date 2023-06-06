@@ -171,10 +171,9 @@
 			isa = PBXGroup;
 			children = (
 				50595FB62A2F001600CABAC6 /* CoreData */,
-				50595F7C2A2EFF7300CABAC6 /* Memo_WatchOSApp.swift */,
 				50595FBF2A2F01D800CABAC6 /* Views */,
-				50595F802A2EFF7300CABAC6 /* NotificationController.swift */,
-				50595F822A2EFF7300CABAC6 /* NotificationView.swift */,
+				50595FC82A2F1C3700CABAC6 /* NotificationView */,
+				50595F7C2A2EFF7300CABAC6 /* Memo_WatchOSApp.swift */,
 				50595F842A2EFF7300CABAC6 /* ComplicationController.swift */,
 				50595F862A2EFF7500CABAC6 /* Assets.xcassets */,
 				50595F8B2A2EFF7500CABAC6 /* Info.plist */,
@@ -228,6 +227,15 @@
 				50595FC62A2F168100CABAC6 /* DeleteMemo.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		50595FC82A2F1C3700CABAC6 /* NotificationView */ = {
+			isa = PBXGroup;
+			children = (
+				50595F802A2EFF7300CABAC6 /* NotificationController.swift */,
+				50595F822A2EFF7300CABAC6 /* NotificationView.swift */,
+			);
+			path = NotificationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
