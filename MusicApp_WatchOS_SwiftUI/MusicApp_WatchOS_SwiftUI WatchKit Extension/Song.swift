@@ -11,6 +11,7 @@ struct Song: Hashable {
     let duration: Int
 }
 
+
 let songs = [
     Song(name: "Same old love", duration: 3),
     Song(name: "Feel me", duration: 4),
