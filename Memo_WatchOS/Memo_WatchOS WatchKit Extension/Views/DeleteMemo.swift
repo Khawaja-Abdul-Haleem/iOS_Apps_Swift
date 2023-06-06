@@ -55,7 +55,7 @@ struct DeleteMemo: View {
         .listStyle(CarouselListStyle())
         .padding(.top)
         .overlay(
-            Text(results.isEmpty ? "No Memo to Delete" : "")
+            Text(results.isEmpty ? "No Memo to Delete" : "") 
         )
         .navigationTitle("Delete Memo")
         .alert(isPresented: $deleteMemo, content: {
