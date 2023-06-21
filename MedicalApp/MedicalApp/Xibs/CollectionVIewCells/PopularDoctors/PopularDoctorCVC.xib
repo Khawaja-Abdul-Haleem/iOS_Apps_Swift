@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PopularDoctorCVC" id="gTV-IL-0wX" customClass="PopularDoctorCVC" customModule="MedicalApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="188" height="282"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="188" height="282"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="apt-mq-u9p">
+                        <rect key="frame" x="1" y="5" width="182" height="272"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="78W-5L-u9W" userLabel="bgView" customClass="RoundedView" customModule="MedicalApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="25" width="182" height="247"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr.Sumaira Sumi " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xIE-bj-0yU">
+                                        <rect key="frame" x="12" y="184" width="150" height="12"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="12" id="SZq-OL-jR6"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Medicine" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="6" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="opV-T6-1HK">
+                                        <rect key="frame" x="12" y="200" width="150" height="12"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="12" id="b02-fj-h9O"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rangpur Medical College" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B5w-5Z-bK5">
+                                        <rect key="frame" x="12" y="216" width="150" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="15" id="NI5-YL-DzE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TSu-vv-Wsg" userLabel="imageVIew" customClass="CollectionCellView" customModule="MedicalApp" customModuleProvider="target">
+                                        <rect key="frame" x="12" y="49" width="158" height="125"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="125" id="sSX-w8-rdk"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.4431372549" green="0.45882352939999999" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sumitra" translatesAutoresizingMaskIntoConstraints="NO" id="hW8-AP-F78">
+                                        <rect key="frame" x="17" y="-30" width="148" height="204"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.99607843137254903" green="0.96078431372549022" blue="0.92156862745098034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="hW8-AP-F78" firstAttribute="bottom" secondItem="TSu-vv-Wsg" secondAttribute="bottom" id="0i7-ei-l7K"/>
+                                    <constraint firstItem="xIE-bj-0yU" firstAttribute="height" secondItem="opV-T6-1HK" secondAttribute="height" id="5Lh-6n-sTA"/>
+                                    <constraint firstAttribute="trailing" secondItem="B5w-5Z-bK5" secondAttribute="trailing" constant="20" id="5dM-Rx-D7k"/>
+                                    <constraint firstItem="xIE-bj-0yU" firstAttribute="leading" secondItem="opV-T6-1HK" secondAttribute="leading" id="AXx-lh-jP7"/>
+                                    <constraint firstItem="opV-T6-1HK" firstAttribute="trailing" secondItem="B5w-5Z-bK5" secondAttribute="trailing" id="Cvm-wL-27B"/>
+                                    <constraint firstItem="hW8-AP-F78" firstAttribute="trailing" secondItem="TSu-vv-Wsg" secondAttribute="trailing" constant="-5" id="Lp4-lq-j4e"/>
+                                    <constraint firstItem="opV-T6-1HK" firstAttribute="top" secondItem="xIE-bj-0yU" secondAttribute="bottom" constant="4" id="MNH-zk-bz9"/>
+                                    <constraint firstItem="B5w-5Z-bK5" firstAttribute="leading" secondItem="78W-5L-u9W" secondAttribute="leading" constant="12" id="SaZ-1Q-qBc"/>
+                                    <constraint firstItem="xIE-bj-0yU" firstAttribute="top" secondItem="TSu-vv-Wsg" secondAttribute="bottom" constant="10" id="Uj9-dI-e2T"/>
+                                    <constraint firstItem="TSu-vv-Wsg" firstAttribute="leading" secondItem="xIE-bj-0yU" secondAttribute="leading" id="ceX-eP-JPs"/>
+                                    <constraint firstItem="hW8-AP-F78" firstAttribute="top" secondItem="78W-5L-u9W" secondAttribute="top" constant="-30" id="f8k-vp-ro5"/>
+                                    <constraint firstItem="hW8-AP-F78" firstAttribute="leading" secondItem="TSu-vv-Wsg" secondAttribute="leading" constant="5" id="gQf-qG-XJb"/>
+                                    <constraint firstAttribute="trailing" secondItem="TSu-vv-Wsg" secondAttribute="trailing" constant="12" id="iXc-bi-jfO"/>
+                                    <constraint firstItem="B5w-5Z-bK5" firstAttribute="top" secondItem="opV-T6-1HK" secondAttribute="bottom" constant="4" id="oeF-pB-Fql"/>
+                                    <constraint firstItem="xIE-bj-0yU" firstAttribute="trailing" secondItem="opV-T6-1HK" secondAttribute="trailing" id="ohb-Bz-Rqn"/>
+                                    <constraint firstItem="opV-T6-1HK" firstAttribute="leading" secondItem="B5w-5Z-bK5" secondAttribute="leading" id="pf2-Hv-lY0"/>
+                                    <constraint firstAttribute="bottom" secondItem="B5w-5Z-bK5" secondAttribute="bottom" constant="16" id="rg9-Fp-V6t"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.20999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="78W-5L-u9W" firstAttribute="top" secondItem="apt-mq-u9p" secondAttribute="top" constant="25" id="bz4-I9-O98"/>
+                            <constraint firstAttribute="trailing" secondItem="78W-5L-u9W" secondAttribute="trailing" id="ejm-NU-UZD"/>
+                            <constraint firstItem="78W-5L-u9W" firstAttribute="leading" secondItem="apt-mq-u9p" secondAttribute="leading" id="jxj-CO-DEd"/>
+                            <constraint firstAttribute="bottom" secondItem="78W-5L-u9W" secondAttribute="bottom" id="wV1-RH-RFf"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="apt-mq-u9p" secondAttribute="trailing" constant="5" id="4vr-EF-gIQ"/>
+                <constraint firstAttribute="bottom" secondItem="apt-mq-u9p" secondAttribute="bottom" constant="5" id="HkH-ti-r6R"/>
+                <constraint firstItem="apt-mq-u9p" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="1" id="JtK-pw-a5A"/>
+                <constraint firstItem="apt-mq-u9p" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="k5d-Iz-iLr"/>
+            </constraints>
+            <size key="customSize" width="188" height="282"/>
+            <connections>
+                <outlet property="bgView" destination="78W-5L-u9W" id="sas-Xq-aLa"/>
+                <outlet property="cardView" destination="apt-mq-u9p" id="0ZP-6X-0jc"/>
+                <outlet property="doctorImage" destination="hW8-AP-F78" id="S0k-6a-fCF"/>
+                <outlet property="drField" destination="opV-T6-1HK" id="OnK-d7-jB6"/>
+                <outlet property="drName" destination="xIE-bj-0yU" id="vY2-Lm-8dw"/>
+                <outlet property="drPlace" destination="B5w-5Z-bK5" id="Pv2-R5-KAK"/>
+            </connections>
+            <point key="canvasLocation" x="-504.34782608695656" y="57.589285714285708"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="sumitra" width="272" height="312"/>
+    </resources>
+</document>
