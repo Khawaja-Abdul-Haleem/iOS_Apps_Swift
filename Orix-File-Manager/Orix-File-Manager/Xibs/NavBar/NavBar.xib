@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NavBar" customModule="Orix_File_Manager" customModuleProvider="target">
+            <connections>
+                <outlet property="leftButton" destination="gBD-Dm-cGN" id="ZuL-tJ-wEy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBD-Dm-cGN">
+                    <rect key="frame" x="30" y="44" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="hhH-vF-4jS"/>
+                        <constraint firstAttribute="width" constant="24" id="oQO-LA-je5"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" image="menu" title=" "/>
+                    <connections>
+                        <action selector="menuBtnTapped:" destination="-1" eventType="touchUpInside" id="9me-cW-xMI"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="evK-JC-el1">
+                    <rect key="frame" x="350" y="39" width="34" height="34"/>
+                    <color key="backgroundColor" red="0.89019607840000003" green="0.0" blue="0.1019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="06S-4Q-173"/>
+                        <constraint firstAttribute="width" constant="34" id="0gn-Xv-lO0"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.0" green="0.0039215686274509803" blue="0.098039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="gBD-Dm-cGN" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="U4b-z4-DqO"/>
+                <constraint firstItem="gBD-Dm-cGN" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="kQI-Vd-wjN"/>
+                <constraint firstItem="evK-JC-el1" firstAttribute="centerY" secondItem="gBD-Dm-cGN" secondAttribute="centerY" id="uwC-t0-WTp"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="evK-JC-el1" secondAttribute="trailing" constant="30" id="xHO-dB-yhN"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="84"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="menu" width="36" height="36"/>
+        <image name="profile" width="34" height="34"/>
+    </resources>
+</document>

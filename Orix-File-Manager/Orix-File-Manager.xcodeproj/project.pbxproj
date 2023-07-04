@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50415B1D2A4AFB5400D3696E /* FoldersTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50415B1B2A4AFB5400D3696E /* FoldersTVC.swift */; };
+		50415B1E2A4AFB5400D3696E /* FoldersTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50415B1C2A4AFB5400D3696E /* FoldersTVC.xib */; };
+		50415B212A4B027600D3696E /* FolderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50415B202A4B027600D3696E /* FolderModel.swift */; };
+		504A560D2A4AB168000778E4 /* MyStorageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504A560C2A4AB168000778E4 /* MyStorageVC.swift */; };
+		504A560F2A4AB6B8000778E4 /* ImageConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504A560E2A4AB6B8000778E4 /* ImageConstant.swift */; };
+		504A56132A4AB872000778E4 /* SSHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 504A56122A4AB872000778E4 /* SSHeader.xib */; };
+		504A56152A4AB884000778E4 /* SSHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504A56142A4AB884000778E4 /* SSHeader.swift */; };
+		507099AA2A496AB200839EBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507099A92A496AB200839EBC /* AppDelegate.swift */; };
+		507099AC2A496AB200839EBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507099AB2A496AB200839EBC /* SceneDelegate.swift */; };
+		507099AE2A496AB200839EBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507099AD2A496AB200839EBC /* ViewController.swift */; };
+		507099B12A496AB200839EBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 507099AF2A496AB200839EBC /* Main.storyboard */; };
+		507099B32A496AB600839EBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 507099B22A496AB600839EBC /* Assets.xcassets */; };
+		507099B62A496AB600839EBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 507099B42A496AB600839EBC /* LaunchScreen.storyboard */; };
+		507099C12A496AB700839EBC /* Orix_File_ManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507099C02A496AB700839EBC /* Orix_File_ManagerTests.swift */; };
+		507099CB2A496AB700839EBC /* Orix_File_ManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507099CA2A496AB700839EBC /* Orix_File_ManagerUITests.swift */; };
+		507099CD2A496AB700839EBC /* Orix_File_ManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507099CC2A496AB700839EBC /* Orix_File_ManagerUITestsLaunchTests.swift */; };
+		507099DB2A498FB600839EBC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507099DA2A498FB600839EBC /* Extension.swift */; };
+		507099DE2A49A41A00839EBC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507099DD2A49A41A00839EBC /* Constant.swift */; };
+		507099E12A49A5E900839EBC /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507099E02A49A5E900839EBC /* Enum.swift */; };
+		507099E72A49AB6200839EBC /* NavBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 507099E62A49AB6200839EBC /* NavBar.xib */; };
+		507099EA2A49ACC800839EBC /* ConfigureNibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507099E92A49ACC800839EBC /* ConfigureNibView.swift */; };
+		507099EC2A49ACF100839EBC /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507099EB2A49ACF100839EBC /* ReusableView.swift */; };
+		507099EE2A49AD8500839EBC /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507099ED2A49AD8500839EBC /* NavBar.swift */; };
+		50FBCDCC2A52C84C008B87F9 /* FoldersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FBCDCB2A52C84C008B87F9 /* FoldersViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		507099BD2A496AB700839EBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5070999E2A496AB200839EBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 507099A52A496AB200839EBC;
+			remoteInfo = "Orix-File-Manager";
+		};
+		507099C72A496AB700839EBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5070999E2A496AB200839EBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 507099A52A496AB200839EBC;
+			remoteInfo = "Orix-File-Manager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50415B1B2A4AFB5400D3696E /* FoldersTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldersTVC.swift; sourceTree = "<group>"; };
+		50415B1C2A4AFB5400D3696E /* FoldersTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoldersTVC.xib; sourceTree = "<group>"; };
+		50415B202A4B027600D3696E /* FolderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderModel.swift; sourceTree = "<group>"; };
+		504A560C2A4AB168000778E4 /* MyStorageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStorageVC.swift; sourceTree = "<group>"; };
+		504A560E2A4AB6B8000778E4 /* ImageConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConstant.swift; sourceTree = "<group>"; };
+		504A56122A4AB872000778E4 /* SSHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SSHeader.xib; sourceTree = "<group>"; };
+		504A56142A4AB884000778E4 /* SSHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSHeader.swift; sourceTree = "<group>"; };
+		507099A62A496AB200839EBC /* Orix-File-Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Orix-File-Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		507099A92A496AB200839EBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		507099AB2A496AB200839EBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		507099AD2A496AB200839EBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		507099B02A496AB200839EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		507099B22A496AB600839EBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		507099B52A496AB600839EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		507099B72A496AB600839EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		507099BC2A496AB700839EBC /* Orix-File-ManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Orix-File-ManagerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		507099C02A496AB700839EBC /* Orix_File_ManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orix_File_ManagerTests.swift; sourceTree = "<group>"; };
+		507099C62A496AB700839EBC /* Orix-File-ManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Orix-File-ManagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		507099CA2A496AB700839EBC /* Orix_File_ManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orix_File_ManagerUITests.swift; sourceTree = "<group>"; };
+		507099CC2A496AB700839EBC /* Orix_File_ManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orix_File_ManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		507099DA2A498FB600839EBC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		507099DD2A49A41A00839EBC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		507099E02A49A5E900839EBC /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		507099E62A49AB6200839EBC /* NavBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavBar.xib; sourceTree = "<group>"; };
+		507099E92A49ACC800839EBC /* ConfigureNibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureNibView.swift; sourceTree = "<group>"; };
+		507099EB2A49ACF100839EBC /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		507099ED2A49AD8500839EBC /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		50FBCDCB2A52C84C008B87F9 /* FoldersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldersViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		507099A32A496AB200839EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		507099B92A496AB700839EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		507099C32A496AB700839EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50415B1A2A4AFB0A00D3696E /* FoldersTVC */ = {
+			isa = PBXGroup;
+			children = (
+				50415B1B2A4AFB5400D3696E /* FoldersTVC.swift */,
+				50415B1C2A4AFB5400D3696E /* FoldersTVC.xib */,
+			);
+			name = FoldersTVC;
+			sourceTree = "<group>";
+		};
+		50415B1F2A4B026700D3696E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50415B202A4B027600D3696E /* FolderModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		504A56102A4AB72F000778E4 /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				507099E62A49AB6200839EBC /* NavBar.xib */,
+				507099ED2A49AD8500839EBC /* NavBar.swift */,
+			);
+			path = NavBar;
+			sourceTree = "<group>";
+		};
+		504A56112A4AB82A000778E4 /* SSHeader */ = {
+			isa = PBXGroup;
+			children = (
+				504A56122A4AB872000778E4 /* SSHeader.xib */,
+				504A56142A4AB884000778E4 /* SSHeader.swift */,
+			);
+			name = SSHeader;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		5070999D2A496AB200839EBC = {
+			isa = PBXGroup;
+			children = (
+				507099A82A496AB200839EBC /* Orix-File-Manager */,
+				507099BF2A496AB700839EBC /* Orix-File-ManagerTests */,
+				507099C92A496AB700839EBC /* Orix-File-ManagerUITests */,
+				507099A72A496AB200839EBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		507099A72A496AB200839EBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				507099A62A496AB200839EBC /* Orix-File-Manager.app */,
+				507099BC2A496AB700839EBC /* Orix-File-ManagerTests.xctest */,
+				507099C62A496AB700839EBC /* Orix-File-ManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		507099A82A496AB200839EBC /* Orix-File-Manager */ = {
+			isa = PBXGroup;
+			children = (
+				50415B1F2A4B026700D3696E /* Model */,
+				507099E32A49A92F00839EBC /* View */,
+				507099E42A49A93500839EBC /* Controller */,
+				507099E52A49AAC300839EBC /* Xibs */,
+				507099E82A49ACBC00839EBC /* Protocols */,
+				507099DF2A49A5DC00839EBC /* Enums */,
+				507099DC2A49A3E800839EBC /* ProjectConstants */,
+				507099D92A498FA800839EBC /* Extension */,
+				507099E22A49A92300839EBC /* Supporting Files */,
+				507099B22A496AB600839EBC /* Assets.xcassets */,
+				507099B42A496AB600839EBC /* LaunchScreen.storyboard */,
+				507099B72A496AB600839EBC /* Info.plist */,
+			);
+			path = "Orix-File-Manager";
+			sourceTree = "<group>";
+		};
+		507099BF2A496AB700839EBC /* Orix-File-ManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				507099C02A496AB700839EBC /* Orix_File_ManagerTests.swift */,
+			);
+			path = "Orix-File-ManagerTests";
+			sourceTree = "<group>";
+		};
+		507099C92A496AB700839EBC /* Orix-File-ManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				507099CA2A496AB700839EBC /* Orix_File_ManagerUITests.swift */,
+				507099CC2A496AB700839EBC /* Orix_File_ManagerUITestsLaunchTests.swift */,
+			);
+			path = "Orix-File-ManagerUITests";
+			sourceTree = "<group>";
+		};
+		507099D92A498FA800839EBC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				507099DA2A498FB600839EBC /* Extension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		507099DC2A49A3E800839EBC /* ProjectConstants */ = {
+			isa = PBXGroup;
+			children = (
+				507099DD2A49A41A00839EBC /* Constant.swift */,
+				504A560E2A4AB6B8000778E4 /* ImageConstant.swift */,
+			);
+			name = ProjectConstants;
+			sourceTree = "<group>";
+		};
+		507099DF2A49A5DC00839EBC /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				507099E02A49A5E900839EBC /* Enum.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		507099E22A49A92300839EBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				507099A92A496AB200839EBC /* AppDelegate.swift */,
+				507099AB2A496AB200839EBC /* SceneDelegate.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		507099E32A49A92F00839EBC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				507099AF2A496AB200839EBC /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		507099E42A49A93500839EBC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				507099AD2A496AB200839EBC /* ViewController.swift */,
+				504A560C2A4AB168000778E4 /* MyStorageVC.swift */,
+				50FBCDCB2A52C84C008B87F9 /* FoldersViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		507099E52A49AAC300839EBC /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				50415B1A2A4AFB0A00D3696E /* FoldersTVC */,
+				504A56112A4AB82A000778E4 /* SSHeader */,
+				504A56102A4AB72F000778E4 /* NavBar */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		507099E82A49ACBC00839EBC /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				507099E92A49ACC800839EBC /* ConfigureNibView.swift */,
+				507099EB2A49ACF100839EBC /* ReusableView.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		507099A52A496AB200839EBC /* Orix-File-Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 507099D02A496AB700839EBC /* Build configuration list for PBXNativeTarget "Orix-File-Manager" */;
+			buildPhases = (
+				507099A22A496AB200839EBC /* Sources */,
+				507099A32A496AB200839EBC /* Frameworks */,
+				507099A42A496AB200839EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Orix-File-Manager";
+			productName = "Orix-File-Manager";
+			productReference = 507099A62A496AB200839EBC /* Orix-File-Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		507099BB2A496AB700839EBC /* Orix-File-ManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 507099D32A496AB700839EBC /* Build configuration list for PBXNativeTarget "Orix-File-ManagerTests" */;
+			buildPhases = (
+				507099B82A496AB700839EBC /* Sources */,
+				507099B92A496AB700839EBC /* Frameworks */,
+				507099BA2A496AB700839EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				507099BE2A496AB700839EBC /* PBXTargetDependency */,
+			);
+			name = "Orix-File-ManagerTests";
+			productName = "Orix-File-ManagerTests";
+			productReference = 507099BC2A496AB700839EBC /* Orix-File-ManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		507099C52A496AB700839EBC /* Orix-File-ManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 507099D62A496AB700839EBC /* Build configuration list for PBXNativeTarget "Orix-File-ManagerUITests" */;
+			buildPhases = (
+				507099C22A496AB700839EBC /* Sources */,
+				507099C32A496AB700839EBC /* Frameworks */,
+				507099C42A496AB700839EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				507099C82A496AB700839EBC /* PBXTargetDependency */,
+			);
+			name = "Orix-File-ManagerUITests";
+			productName = "Orix-File-ManagerUITests";
+			productReference = 507099C62A496AB700839EBC /* Orix-File-ManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5070999E2A496AB200839EBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					507099A52A496AB200839EBC = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					507099BB2A496AB700839EBC = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 507099A52A496AB200839EBC;
+					};
+					507099C52A496AB700839EBC = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 507099A52A496AB200839EBC;
+					};
+				};
+			};
+			buildConfigurationList = 507099A12A496AB200839EBC /* Build configuration list for PBXProject "Orix-File-Manager" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5070999D2A496AB200839EBC;
+			productRefGroup = 507099A72A496AB200839EBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				507099A52A496AB200839EBC /* Orix-File-Manager */,
+				507099BB2A496AB700839EBC /* Orix-File-ManagerTests */,
+				507099C52A496AB700839EBC /* Orix-File-ManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		507099A42A496AB200839EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				507099B62A496AB600839EBC /* LaunchScreen.storyboard in Resources */,
+				50415B1E2A4AFB5400D3696E /* FoldersTVC.xib in Resources */,
+				504A56132A4AB872000778E4 /* SSHeader.xib in Resources */,
+				507099E72A49AB6200839EBC /* NavBar.xib in Resources */,
+				507099B32A496AB600839EBC /* Assets.xcassets in Resources */,
+				507099B12A496AB200839EBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		507099BA2A496AB700839EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		507099C42A496AB700839EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		507099A22A496AB200839EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504A560F2A4AB6B8000778E4 /* ImageConstant.swift in Sources */,
+				507099AE2A496AB200839EBC /* ViewController.swift in Sources */,
+				507099EA2A49ACC800839EBC /* ConfigureNibView.swift in Sources */,
+				50415B1D2A4AFB5400D3696E /* FoldersTVC.swift in Sources */,
+				504A560D2A4AB168000778E4 /* MyStorageVC.swift in Sources */,
+				50415B212A4B027600D3696E /* FolderModel.swift in Sources */,
+				504A56152A4AB884000778E4 /* SSHeader.swift in Sources */,
+				507099AA2A496AB200839EBC /* AppDelegate.swift in Sources */,
+				507099EC2A49ACF100839EBC /* ReusableView.swift in Sources */,
+				507099E12A49A5E900839EBC /* Enum.swift in Sources */,
+				507099DE2A49A41A00839EBC /* Constant.swift in Sources */,
+				50FBCDCC2A52C84C008B87F9 /* FoldersViewController.swift in Sources */,
+				507099AC2A496AB200839EBC /* SceneDelegate.swift in Sources */,
+				507099EE2A49AD8500839EBC /* NavBar.swift in Sources */,
+				507099DB2A498FB600839EBC /* Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		507099B82A496AB700839EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				507099C12A496AB700839EBC /* Orix_File_ManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		507099C22A496AB700839EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				507099CD2A496AB700839EBC /* Orix_File_ManagerUITestsLaunchTests.swift in Sources */,
+				507099CB2A496AB700839EBC /* Orix_File_ManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		507099BE2A496AB700839EBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 507099A52A496AB200839EBC /* Orix-File-Manager */;
+			targetProxy = 507099BD2A496AB700839EBC /* PBXContainerItemProxy */;
+		};
+		507099C82A496AB700839EBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 507099A52A496AB200839EBC /* Orix-File-Manager */;
+			targetProxy = 507099C72A496AB700839EBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		507099AF2A496AB200839EBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				507099B02A496AB200839EBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		507099B42A496AB600839EBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				507099B52A496AB600839EBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		507099CE2A496AB700839EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		507099CF2A496AB700839EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		507099D12A496AB700839EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Orix-File-Manager/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kah-Services.Orix-File-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		507099D22A496AB700839EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Orix-File-Manager/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kah-Services.Orix-File-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		507099D42A496AB700839EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kah-Services.Orix-File-ManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orix-File-Manager.app/Orix-File-Manager";
+			};
+			name = Debug;
+		};
+		507099D52A496AB700839EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kah-Services.Orix-File-ManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orix-File-Manager.app/Orix-File-Manager";
+			};
+			name = Release;
+		};
+		507099D72A496AB700839EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kah-Services.Orix-File-ManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Orix-File-Manager";
+			};
+			name = Debug;
+		};
+		507099D82A496AB700839EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kah-Services.Orix-File-ManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Orix-File-Manager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		507099A12A496AB200839EBC /* Build configuration list for PBXProject "Orix-File-Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				507099CE2A496AB700839EBC /* Debug */,
+				507099CF2A496AB700839EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		507099D02A496AB700839EBC /* Build configuration list for PBXNativeTarget "Orix-File-Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				507099D12A496AB700839EBC /* Debug */,
+				507099D22A496AB700839EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		507099D32A496AB700839EBC /* Build configuration list for PBXNativeTarget "Orix-File-ManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				507099D42A496AB700839EBC /* Debug */,
+				507099D52A496AB700839EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		507099D62A496AB700839EBC /* Build configuration list for PBXNativeTarget "Orix-File-ManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				507099D72A496AB700839EBC /* Debug */,
+				507099D82A496AB700839EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5070999E2A496AB200839EBC /* Project object */;
+}
