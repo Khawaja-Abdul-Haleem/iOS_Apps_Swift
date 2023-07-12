@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ButtonCVC" id="gTV-IL-0wX" customClass="ButtonCVC" customModule="workoutAdvisor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="118" height="38"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="118" height="38"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IKx-4p-A2o">
+                        <rect key="frame" x="0.0" y="0.0" width="118" height="38"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="workoutButton" translatesAutoresizingMaskIntoConstraints="NO" id="0NL-Q2-1YR">
+                                <rect key="frame" x="0.0" y="0.0" width="118" height="38"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lYt-xP-equ">
+                                <rect key="frame" x="0.0" y="0.0" width="118" height="38"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=" "/>
+                                <connections>
+                                    <action selector="workoutBtnTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="aLp-Yj-qmS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="0NL-Q2-1YR" secondAttribute="bottom" id="10P-59-aLY"/>
+                            <constraint firstItem="lYt-xP-equ" firstAttribute="trailing" secondItem="0NL-Q2-1YR" secondAttribute="trailing" id="BOK-Bj-DFN"/>
+                            <constraint firstItem="0NL-Q2-1YR" firstAttribute="leading" secondItem="IKx-4p-A2o" secondAttribute="leading" id="Xm0-QN-5Az"/>
+                            <constraint firstItem="lYt-xP-equ" firstAttribute="top" secondItem="0NL-Q2-1YR" secondAttribute="top" id="bDd-0f-xet"/>
+                            <constraint firstItem="0NL-Q2-1YR" firstAttribute="top" secondItem="IKx-4p-A2o" secondAttribute="top" id="vXI-9p-kGh"/>
+                            <constraint firstAttribute="trailing" secondItem="0NL-Q2-1YR" secondAttribute="trailing" id="wqN-16-QdM"/>
+                            <constraint firstItem="lYt-xP-equ" firstAttribute="bottom" secondItem="0NL-Q2-1YR" secondAttribute="bottom" id="xkr-fZ-K5J"/>
+                            <constraint firstItem="lYt-xP-equ" firstAttribute="leading" secondItem="0NL-Q2-1YR" secondAttribute="leading" id="yjS-On-MiE"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="IKx-4p-A2o" secondAttribute="trailing" id="DrF-E5-sCj"/>
+                <constraint firstAttribute="bottom" secondItem="IKx-4p-A2o" secondAttribute="bottom" id="Wkd-5w-QHl"/>
+                <constraint firstItem="IKx-4p-A2o" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Yc0-CG-dKI"/>
+                <constraint firstItem="IKx-4p-A2o" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="c1N-2H-1YO"/>
+            </constraints>
+            <size key="customSize" width="118" height="38"/>
+            <connections>
+                <outlet property="workoutBtn" destination="lYt-xP-equ" id="dpj-QZ-eO1"/>
+            </connections>
+            <point key="canvasLocation" x="186.95652173913044" y="79.017857142857139"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="workoutButton" width="374" height="64"/>
+    </resources>
+</document>
