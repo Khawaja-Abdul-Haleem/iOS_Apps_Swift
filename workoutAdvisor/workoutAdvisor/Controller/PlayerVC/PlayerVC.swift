@@ -36,6 +36,7 @@ class PlayerVC: UIViewController {
     
     @objc func tapFunction(sender:UITapGestureRecognizer) {
         viewModel.isViewHidden ? vpView.customVIew.fadeIn() : vpView.customVIew.fadeOut()
+        viewModel.isViewHidden ? videoSlider.fadeIn() : videoSlider.fadeOut()
         viewModel.isViewHidden.toggle()
     }
    

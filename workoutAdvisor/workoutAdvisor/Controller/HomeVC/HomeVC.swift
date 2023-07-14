@@ -31,7 +31,7 @@ class HomeVC: UIViewController {
         if segue.identifier == StringConstant.SEGUE_TO_PLAYERVC {
             if let nextViewController = segue.destination as? PlayerVC {
                 nextViewController.viewModel.image = viewModel.videoThumbnail
-                nextViewController.viewModel.title = viewModel.videoTitle//videoPlayerView.videoTitle.text ?? "Not Found"
+                nextViewController.viewModel.title = viewModel.videoTitle
             }
         }
     }
@@ -146,7 +146,6 @@ extension HomeVC: VPViewProtocol {
     
     func favBtnTapped() { }
 }
-
 
 extension HomeVC: NavBarProtocol {
     func menuBtnTapped() { }

@@ -13,5 +13,4 @@ class HomeVcVm {
     let video = AVURLAsset(url: URL(fileURLWithPath: Bundle.main.path(forResource: "intro", ofType: "mp4")!))
     var videoThumbnail = UIImage()
     var videoTitle = ""
-    
 }

@@ -19,6 +19,7 @@ class myVideoPlayer: UIView {
     var player: AVPlayer?
     var isPlaying = false
     var delegate: myVpProtocol? = nil
+    var playerLayer: AVPlayerLayer = AVPlayerLayer()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -29,7 +30,10 @@ class myVideoPlayer: UIView {
         super.init(coder: coder)
         commonInit()
     }
-
+    override func layoutSubviews() {
+        DispatchQueue.main.async { self.playerLayer.frame = self.vwPlayer.bounds}
+    }
+    
     @IBAction func mainBtnTapped(_ sender: UIButton) {
         isPlaying ? player?.pause() : player?.play()
         innerPauseBtn.setImage(isPlaying ? ImageConstant.getPlayIcon() : ImageConstant.getPauseIcon(), for: .normal)
@@ -43,7 +47,7 @@ class myVideoPlayer: UIView {
     
     fileprivate func addPlayerToView(_ view: UIView) {
         player = AVPlayer()
-        let playerLayer = AVPlayerLayer(player: player)
+        playerLayer = AVPlayerLayer(player: player)
         playerLayer.frame = self.bounds
         playerLayer.videoGravity = .resizeAspectFill
         view.layer.addSublayer(playerLayer)

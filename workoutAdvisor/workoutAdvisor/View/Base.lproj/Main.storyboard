@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -108,17 +107,34 @@
                                     <constraint firstAttribute="height" constant="60" id="b1w-PR-v2E"/>
                                 </constraints>
                             </view>
-                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hsg-6o-6CN" customClass="myVideoPlayer" customModule="workoutAdvisor" customModuleProvider="target">
+                            <view hidden="YES" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="Hsg-6o-6CN" customClass="myVideoPlayer" customModule="workoutAdvisor" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="312.5" width="414" height="325"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="325" id="HDB-pt-gw9"/>
+                                    <constraint firstAttribute="height" constant="300" id="Qqi-Bt-deR"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="HDB-pt-gw9"/>
+                                        <exclude reference="Qqi-Bt-deR"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="Qqi-Bt-deR"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="HDB-pt-gw9"/>
+                                    </mask>
+                                </variation>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="chY-GN-NQk">
                                 <rect key="frame" x="0.0" y="312.5" width="414" height="325"/>
                             </imageView>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="iol-gM-aUv">
+                            <slider hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="iol-gM-aUv">
                                 <rect key="frame" x="48" y="828" width="318" height="15"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="14" id="Yia-gk-E9R"/>
@@ -140,15 +156,39 @@
                             <constraint firstItem="Hsg-6o-6CN" firstAttribute="centerX" secondItem="anM-la-IrB" secondAttribute="centerX" id="JwG-tv-atS"/>
                             <constraint firstItem="oI8-Cc-pv6" firstAttribute="top" secondItem="anM-la-IrB" secondAttribute="top" constant="30" id="NNU-BG-wD6"/>
                             <constraint firstItem="iol-gM-aUv" firstAttribute="leading" secondItem="anM-la-IrB" secondAttribute="leading" constant="50" id="S6Y-Uc-eU3"/>
+                            <constraint firstItem="Hsg-6o-6CN" firstAttribute="trailing" secondItem="oI8-Cc-pv6" secondAttribute="trailing" id="WY5-qg-DOL"/>
                             <constraint firstItem="chY-GN-NQk" firstAttribute="bottom" secondItem="Hsg-6o-6CN" secondAttribute="bottom" id="f28-R9-xTp"/>
                             <constraint firstItem="chY-GN-NQk" firstAttribute="top" secondItem="Hsg-6o-6CN" secondAttribute="top" id="j89-1P-tKS"/>
                             <constraint firstItem="chY-GN-NQk" firstAttribute="leading" secondItem="Hsg-6o-6CN" secondAttribute="leading" id="kja-iS-oAx"/>
                             <constraint firstItem="Hsg-6o-6CN" firstAttribute="centerY" secondItem="anM-la-IrB" secondAttribute="centerY" id="rAa-24-haA"/>
                             <constraint firstItem="anM-la-IrB" firstAttribute="bottom" secondItem="iol-gM-aUv" secondAttribute="bottom" constant="20" id="rKl-5w-gha"/>
                             <constraint firstItem="Hsg-6o-6CN" firstAttribute="leading" secondItem="anM-la-IrB" secondAttribute="leading" id="s54-0x-Q9p"/>
+                            <constraint firstItem="Hsg-6o-6CN" firstAttribute="top" secondItem="oI8-Cc-pv6" secondAttribute="bottom" constant="10" id="xFv-5Y-DdV"/>
                             <constraint firstItem="anM-la-IrB" firstAttribute="trailing" secondItem="oI8-Cc-pv6" secondAttribute="trailing" constant="25" id="y5m-WD-Sep"/>
                             <constraint firstItem="anM-la-IrB" firstAttribute="trailing" secondItem="Hsg-6o-6CN" secondAttribute="trailing" id="zSY-MN-Tzz"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="zSY-MN-Tzz"/>
+                                <exclude reference="JwG-tv-atS"/>
+                                <exclude reference="WY5-qg-DOL"/>
+                                <exclude reference="rAa-24-haA"/>
+                                <exclude reference="xFv-5Y-DdV"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="WY5-qg-DOL"/>
+                                <include reference="xFv-5Y-DdV"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="zSY-MN-Tzz"/>
+                                <include reference="JwG-tv-atS"/>
+                                <include reference="rAa-24-haA"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="6vn-Wg-iqT"/>
                     <connections>
@@ -181,9 +221,4 @@
             <point key="canvasLocation" x="-261" y="66"/>
         </scene>
     </scenes>
-    <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-    </resources>
 </document>

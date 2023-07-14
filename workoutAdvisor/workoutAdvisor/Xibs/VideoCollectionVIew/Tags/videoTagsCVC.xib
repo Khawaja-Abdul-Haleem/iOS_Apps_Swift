@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -53,12 +53,23 @@
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
+                <constraint firstAttribute="trailing" secondItem="Juh-m5-ZOW" secondAttribute="trailing" constant="8" id="K2I-x9-qhV"/>
                 <constraint firstItem="Juh-m5-ZOW" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="SmV-lw-SSV"/>
                 <constraint firstAttribute="trailing" secondItem="Juh-m5-ZOW" secondAttribute="trailing" constant="8" id="b9A-2z-Tcq"/>
                 <constraint firstAttribute="bottom" secondItem="Juh-m5-ZOW" secondAttribute="bottom" constant="8" id="dsy-xM-UIC"/>
                 <constraint firstItem="Juh-m5-ZOW" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="hRJ-Cp-U2K"/>
             </constraints>
             <size key="customSize" width="220" height="111"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="b9A-2z-Tcq"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="constraints">
+                    <include reference="b9A-2z-Tcq"/>
+                </mask>
+            </variation>
             <connections>
                 <outlet property="mainView" destination="Juh-m5-ZOW" id="hll-HR-XPI"/>
                 <outlet property="videoTags" destination="jk8-ss-XRC" id="wg5-Nw-cPb"/>
